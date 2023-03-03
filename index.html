@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style css -->
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!-- navbar portion  -->
+    <nav class="navbar navbar-expand-lg pt-5px pb-5px " style="background-color:white;" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" width="120px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-weight: bold; padding-left: 100px;" >
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Company name</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">new room </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">mobility</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sustainability</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">IR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i
+                                class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">contect us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="border: 2px solid black ; font-size: 15px; font-weight: bold;  border-radius: 2px;"id="hover" >Download assests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="border: 2px solid black ; margin: 0px 6px; " id="hover">linup</a>
+                    </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- yaha pe picture wali slider aegi  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/car.jpg" class="d-block w-100" alt="...  " style="height: 600px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>japan toyota car</h5>
+                    <p>Toyota lunch all new Pruis PHVW in japan</p>
+                </div>
+            </div>
+            <!-- <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- text link wala portion  -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <a href="">
+                    <h6 class="display-6 text-center mt-5 mb-4"
+                        style="font-size: 15px; color: blue; font-weight: bold;">
+                        Notification: Memorial Service for Shoichiro Toyoda
+                    </h6>
+                </a>
+            </div>
+        </div>
+        <!-- aik or wala images slider -->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slider1.png" class="d-block w-100" alt="...  " style="height: 600px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Mobility For AllーRacing Spurs a World-First Experiment</h5>
+                        <p>In October 2022, the Okayama International Circuit hosted round six of the Super Taikyu
+                            Series. It was also the venue for demonstration tests geared toward helping ensure that
+                            anyone can enjoy motorsports.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                <img src="images/slider2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    <!-- srif aik pic k liye  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/boys.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>TMC Announces Changes to Executive Structure, Senior Professional/Senior Management Employees
+                    </h5>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ye chote cards of text wala portion hai  -->
+    <div class="row justify-content-evenly pt-3 pb-4" style="background-color: rgb(223, 223, 223);">
+        <div class="col-md-5">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/card1.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Exclusive PHEV design</h5>
+                            <p class="card-text">The all-new Prius uses the same body design for both the HEV and PHEV
+                                models, but with their individuality expressed through small differences in shapes and
+                                color schemes.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/card2.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">remarked Suchi Reddy</h5>
+                            <p class="card-text">"Lexus' continued commitment to innovation―and their support of an
+                                artistic approach that is a confluence of art and design―led me to envision this
+                                immersive experience as both a sculpture and a mult</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/card3.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">TOYOTA GAZOO Racing </h5>
+                            <p class="card-text">TOYOTA GAZOO Racing has revealed a revised GR010 HYBRID Hypercar for
+                                the 2023 season</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4th -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/card4.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">PRIDE INDEX </h5>
+                            <p class="card-text">Toyota was awarded the Gold Prize in PRIDE INDEX for the second year in
+                                a row</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-5">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/card5.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Toyota is undertaking</h5>
+                            <p class="card-text">Toyota is undertaking various global initiatives to achieve carbon
+                                neutrality at all plants by 2035.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/card6.jpg" class="img-fluid rounded-start" alt="..." style="width: 100%;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Toyota announced</h5>
+                            <p class="card-text">On January 26, Toyota announced a change at the top. This article
+                                shines a spotlight on incoming president Koji Sato, who will lead the company into the
+                                future.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/card8.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Toyota Times</h5>
+                            <p class="card-text">In the first regular Toyota Times News broadcast, host Yuta Tomikawa delved into President</p>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- last -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/last.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Powered Engines</h5>
+                            <p class="card-text">Hydrogen-Powered Engines Head to the Next Stage:</p>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- text wala portion  -->
+
+        <div class="row justify-content-evenly pt-8 pb-8">
+            <div class="col-md-12  " style="background-color: rgb(218, 216, 214); font-size: 18px;">
+              <h1  style="text-align: center;">Notice</h1>
+              <p>Feb. 24, <a href=""> 2023 Notice: Memorial Service for Shoichiro Toyoda</a><br>
+                Feb. 15, <a href=""> 2023 Production Plan for March</a> <br>
+                Feb. 14, <a href=""> 2023 Passing of TMC Honorary Chairman Shoichiro Toyoda</a> <br>
+                Feb. 10, <a href=""> 2023 Toyota Responds to Urgent Need Following Devastating South-Eastern Turkey Earthquake</a> </p>
+            </div>
+            <!-- ye 3 cards wala kaam hai  -->
+            <div class="row justify-content-evenly pt-5px  pb-5px" style="background-color:rgb(218, 216, 214) ;" >
+                <div class="col-md-3 " style="padding: 12px;">
+                    <div class="card" style="width: 18rem;">
+                    <img src="images/child1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 style="text-align: center;">SDGs Initiatives</h5>
+                    </div>
+                  </div></div>
+                <div class="col-md-3" style="padding: 12px;">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/child2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 style="text-align: center;">Beyond Zero</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3" style="padding: 12px;"><div class="card" style="width: 18rem;">
+                    <img src="images/child3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 style="text-align: center;"> Message from Management</h5>
+                    </div>
+                  </div></div>
+
+
+        <!-- footer wala kaam -->
+        <div class="row justify-content-evenly bg-dark pt-5 pb-5 text-white">
+            <div class="col-md-3 mt-3">
+              <h4>Side Map</h4>
+              <h4>FAQ</h4>
+              <h4>Term of Use</h4>
+         
+             
+            </div>
+            <div class="col-md-3 mt-3">
+                <h4>Privacy Notice</h4>
+              
+            </div>
+            <div class="col-md-3 mt-3">
+              <h4>Mail Alert Registration</h4>
+              <h4>RSS</h4>
+              <h4>Related website Social media </h4>
+              
+            </div>
+          </div>
+        </div>
+        
+        </div>
+    
+
+<!-- last content -->
+
+  
+</div>
+<div class="row justify-content-evenly bg-dark pt-5 pb-5 text-white">
+    <div class="col-md-5" style="color: white;">© 1995-2023 TOYOTA MOTOR CORPORATION. All Rights Reserved.</div>
+    <div class="col-md-5"><a href="">Cookies Policy
+        Your Privacy Choices (U.S. residents)</a></div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
